@@ -1,0 +1,27 @@
+/*background color is #fab1a0*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#whole{
+	background:#fab1a0;
+}
+#box{
+	animation-delay: 0s;
+	animation-name: fadeIn;
+	animation-duration: 5s;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+p{
+	font-family: 'Lato', sans-serif;
+}
